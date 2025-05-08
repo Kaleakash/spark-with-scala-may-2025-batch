@@ -8,8 +8,8 @@ object ListExamples {
     println(myList2)
     println(myList1(0))
     //myList1(0)=100;
-    println(myList1.tail)
-    println(myList1.head)
+    println("mylist1 tail "+myList1.tail)
+    println("mylist1 head "+myList1.head)
     println(myList1.isEmpty)
     println(myList1.reverse)
     println("Retrieve element one by one using for each function")
