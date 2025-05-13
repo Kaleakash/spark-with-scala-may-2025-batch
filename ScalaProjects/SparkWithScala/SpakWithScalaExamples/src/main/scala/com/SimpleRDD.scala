@@ -12,7 +12,19 @@ object SimpleRDD {
     val numberRDD = sc.parallelize(numbers);
     // if we need we can do some transformation using map, filter, flatMap etc
 
+    val evenNumber = numberRDD.filter(x=>x%2==0);
+    val oddNumber = numberRDD.filter(x=>x%2!=0);
+    val squareNumber = numberRDD.map(x=>x*2);
+    val sumOfAllNumbers = numberRDD.reduce(_+_);
+
+
     // actions
     numberRDD.collect().foreach(println)
+    evenNumber.collect().foreach(println)
+    oddNumber.collect().foreach(println)
+    squareNumber.collect().foreach(println)
+    println("Sum of numbers is "+sumOfAllNumbers)
+
+    sc.stop();
   }
 }
