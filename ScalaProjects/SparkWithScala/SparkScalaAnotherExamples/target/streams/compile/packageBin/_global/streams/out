@@ -1,0 +1,9 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/SparkWithScala/SparkScalaAnotherExamples/target/scala-2.13/sparkscalaanotherexamples_2.13-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/SparkWithScala/SparkScalaAnotherExamples/target/scala-2.13/classes/com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/EmployeeRDD$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/SparkWithScala/SparkScalaAnotherExamples/target/scala-2.13/classes/com/EmployeeRDD$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com/EmployeeRDD.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/SparkWithScala/SparkScalaAnotherExamples/target/scala-2.13/classes/com/EmployeeRDD.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
