@@ -1,0 +1,6 @@
+id,name,department_id,salary
+1,Alice,10,5000
+2,Bob,10,4000
+3,Charlie,20,5500
+4,David,null,6000
+5,Eve,30,4200
