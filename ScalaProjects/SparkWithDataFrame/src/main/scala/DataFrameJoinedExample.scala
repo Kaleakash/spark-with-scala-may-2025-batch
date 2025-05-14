@@ -8,7 +8,9 @@ object DataFrameJoinedExample {
       csv("data/employees.csv")
     val departments: DataFrame = spark.read.option("header", true).option("inferSchema", true).
       csv("data/departments.csv")
-    val joinDataFrame: DataFrame = employees.join(departments,"department_id")
+    //val joinDataFrame: DataFrame = employees.join(departments,"department_id")   // Inner Join
+    //val joinDataFrame: DataFrame = employees.join(departments,"department_id","left")
+    val joinDataFrame: DataFrame = employees.join(departments,"department_id","right")
     //joinDataFrame.show();     // show all field from both files
     joinDataFrame.select("name","department_name").show(); // show particular fields
     spark.stop();
