@@ -1,9 +1,13 @@
 [0m[[0m[0mdebug[0m] [0m[0mPackaging /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/SparkWithDataFrame/target/scala-2.13/sparkwithdataframe_2.13-0.1.0-SNAPSHOT.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MoviesDataFrameExamples.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/SparkWithDataFrame/target/scala-2.13/classes/MoviesDataFrameExamples.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SparkDataFrameExampleWithTuple.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/SparkWithDataFrame/target/scala-2.13/classes/SparkDataFrameExampleWithTuple.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SparkDataFrameExampleWithTuple$$typecreator10$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/SparkWithDataFrame/target/scala-2.13/classes/SparkDataFrameExampleWithTuple$$typecreator10$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MoviesDataFrameExamples$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/SparkWithDataFrame/target/scala-2.13/classes/MoviesDataFrameExamples$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SparkDataFrameExampleWithTuple$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/SparkWithDataFrame/target/scala-2.13/classes/SparkDataFrameExampleWithTuple$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

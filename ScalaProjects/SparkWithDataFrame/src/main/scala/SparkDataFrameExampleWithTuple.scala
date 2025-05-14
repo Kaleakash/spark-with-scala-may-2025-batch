@@ -30,7 +30,7 @@ object SparkDataFrameExampleWithTuple {
     //employeeRDD.collect().foreach(println)
     println("number of people in each group")
     df.groupBy("dept").count().show();
-    println("number of salary group by department")
+    println("sum of salary by department")
     df.groupBy("dept").sum("salary").show();
     spark.stop();
   }
