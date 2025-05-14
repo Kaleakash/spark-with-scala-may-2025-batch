@@ -14,7 +14,7 @@ object MoviesDataFrameExamples {
     moviesDF.filter($"genre"==="Drama").show(); // condition with genre
     moviesDF.filter($"year" > 2000).show();   // condition of year
     moviesDF.orderBy(desc("rating")).show();  // order may asc or desc
-    
+
     spark.stop();
   }
 }
