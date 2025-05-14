@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/SparkWithDataFrame/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/SparkWithDataFrame/src/main/scala/SparkDataFrameExampleWithTuple.scala:14:18: value implict is not a member of org.apache.spark.sql.SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean implicits?[0m
+[0m[[0m[31merror[0m] [0m[0m    import spark.implict._[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/SparkWithDataFrame/src/main/scala/SparkDataFrameExampleWithTuple.scala:19:36: value toDF is not a member of org.apache.spark.rdd.RDD[(Int, String, Int)][0m
+[0m[[0m[31merror[0m] [0m[0m    val df:DataFrame = employeeRDD.toDF("id","name","salary")[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed May 14, 2025 8:30:59 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
