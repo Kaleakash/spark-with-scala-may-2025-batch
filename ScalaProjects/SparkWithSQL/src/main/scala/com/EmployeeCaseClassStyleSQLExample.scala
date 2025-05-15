@@ -9,7 +9,7 @@ object EmployeeCaseClassStyleSQLExample {
     import spark.implicits._
     //println("spark is ready...")
 
-    val employeeDS:Dataset[Employee]=spark.read.option("multiline",true).json("data/employees.json").as[Employee]
+    val employeeDS:Dataset[info.Employee]=spark.read.option("multiline",true).json("data/employees.json").as[info.Employee]
 
     employeeDS.createOrReplaceTempView("employees");  // we want to use sql query using employee table
 

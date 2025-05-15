@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Alice",
+    "department": "IT",
+    "salary": 5000,
+    "skills": ["Scala", "Spark", "SQL"],
+    "address": {
+      "city": "San Francisco",
+      "state": "California"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Bob",
+    "department": "HR",
+    "salary": 4000,
+    "skills": ["Communication", "Hiring"],
+    "address": {
+      "city": "Austin",
+      "state": "Texas"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Charlie",
+    "department": "Finance",
+    "salary": 6000,
+    "skills": ["Excel", "Accounting", "Budgeting"],
+    "address": {
+      "city": "New York",
+      "state": "New York"
+    }
+  }
+]
