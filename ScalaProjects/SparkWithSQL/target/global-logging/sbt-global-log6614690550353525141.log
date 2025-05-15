@@ -1,0 +1,46 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.net.URLClassLoader.findClass(URLClassLoader.java:387)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.ManagedClassLoader.findClass(ManagedClassLoader.java:103)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.datasources.jdbc.DriverRegistry$.register(DriverRegistry.scala:46)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.datasources.jdbc.JDBCOptions.$anonfun$driverClass$1(JDBCOptions.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.datasources.jdbc.JDBCOptions.$anonfun$driverClass$1$adapted(JDBCOptions.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Option.foreach(Option.scala:437)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.datasources.jdbc.JDBCOptions.<init>(JDBCOptions.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.datasources.jdbc.JDBCOptions.<init>(JDBCOptions.scala:41)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.datasources.jdbc.JdbcRelationProvider.createRelation(JdbcRelationProvider.scala:34)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.execution.datasources.DataSource.resolveRelation(DataSource.scala:346)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.loadV1Source(DataFrameReader.scala:229)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.$anonfun$load$2(DataFrameReader.scala:211)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Option.getOrElse(Option.scala:201)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.load(DataFrameReader.scala:211)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.load(DataFrameReader.scala:172)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.apache.spark.sql.DataFrameReader.jdbc(DataFrameReader.scala:249)[0m
+[0m[[0m[31merror[0m] [0m[0m	at info.ProductScalaSQLOperation$.main(ProductScalaSQLOperation.scala:19)[0m
+[0m[[0m[31merror[0m] [0m[0m	at info.ProductScalaSQLOperation.main(ProductScalaSQLOperation.scala)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.reflect.Method.invoke(Method.java:498)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.invokeMain(Run.scala:135)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.execute$1(Run.scala:85)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.$anonfun$runWithLoader$5(Run.scala:112)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run$.executeSuccess(Run.scala:178)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.runWithLoader(Run.scala:112)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$bgRunTask$6(Defaults.scala:2072)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$termWrapper$2(Defaults.scala:2011)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.Try$.apply(Try.scala:213)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.BackgroundThreadPool$BackgroundRunnable.run(DefaultBackgroundJobService.scala:378)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Thread.java:750)[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) java.lang.ClassNotFoundException: com.mysql.cj.jdbc.Driver[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 10 s, completed May 15, 2025 9:19:23 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
