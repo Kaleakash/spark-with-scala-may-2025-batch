@@ -18,6 +18,16 @@ object ProductScalaSQLOperation {
     // Show all data from database
     println("Product details ")
     productData.show();
+
+    // transformation on product
+    val expensiveProduct = productData.filter($"price" > 50000);
+    expensiveProduct.show();
+
+    //writer or store filter data in mysql database
+    //
+    expensiveProduct.write.mode("append").jdbc(url,"expensive_product",connProperties)
+
+    println("Expensive product stored in db")
     spark.stop();
   }
 }

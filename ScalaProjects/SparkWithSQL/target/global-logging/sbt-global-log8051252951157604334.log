@@ -1,7 +1,7 @@
 [0m[[0m[0mdebug[0m] [0m[0m> Exec(run, None, None)[0m
 [0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
 [0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
-[0m[[0m[32msuccess[0m] [0m[0mTotal time: 21 s, completed May 15, 2025 9:23:55 AM[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 17 s, completed May 15, 2025 9:37:13 AM[0m
 [0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
 [0m[[0m[0mdebug[0m] [0m[0m> Exec(, None, None)[0m
 [0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
