@@ -11,3 +11,5 @@ libraryDependencies += "org.apache.spark" %% "spark-core" % "3.5.3"
 libraryDependencies += "org.apache.spark" %% "spark-sql" % "3.5.3"
 // https://mvnrepository.com/artifact/mysql/mysql-connector-java
 libraryDependencies += "mysql" % "mysql-connector-java" % "8.0.22"
+// https://mvnrepository.com/artifact/org.apache.spark/spark-mllib
+libraryDependencies += "org.apache.spark" %% "spark-mllib" % "3.5.3"
