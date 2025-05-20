@@ -2,6 +2,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	mlexamples[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/ScalaMLExamples/target/scala-2.13/classes/mlexamples[0m
+[0m[[0m[0mdebug[0m] [0m[0m	mlexamples/DecisionTreeModelExamples.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/ScalaMLExamples/target/scala-2.13/classes/mlexamples/DecisionTreeModelExamples.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	mlexamples/SimpleMLExamples$$typecreator1$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/ScalaMLExamples/target/scala-2.13/classes/mlexamples/SimpleMLExamples$$typecreator1$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	mlexamples/SimpleMLExamples$.class[0m
@@ -10,8 +12,14 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/ScalaMLExamples/target/scala-2.13/classes/mlexamples/KMeanExamles$$typecreator10$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	mlexamples/SimpleMLExamples.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/ScalaMLExamples/target/scala-2.13/classes/mlexamples/SimpleMLExamples.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	mlexamples/DecisionTreeModelExamples$$typecreator20$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/ScalaMLExamples/target/scala-2.13/classes/mlexamples/DecisionTreeModelExamples$$typecreator20$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	mlexamples/DecisionTreeModelExamples$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/ScalaMLExamples/target/scala-2.13/classes/mlexamples/DecisionTreeModelExamples$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	mlexamples/KMeanExamles$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/ScalaMLExamples/target/scala-2.13/classes/mlexamples/KMeanExamles$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	mlexamples/DecisionTreeModelExamples$$typecreator10$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/ScalaMLExamples/target/scala-2.13/classes/mlexamples/DecisionTreeModelExamples$$typecreator10$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	mlexamples/KMeanExamles.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/ScalaMLExamples/target/scala-2.13/classes/mlexamples/KMeanExamles.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
