@@ -41,6 +41,10 @@ object DecisionTreeModelExamples {
       (740,43000),
       (900,55000),
       (860,48000),
+      (330,68000),
+      (550,35000),
+      (700,10000),
+      (980,46000),
     ).toDF("creditScore","income")
 
     val newFeatures = assmeber.transform(newApplicants)
