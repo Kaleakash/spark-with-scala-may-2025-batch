@@ -34,13 +34,13 @@ object DecisionTreeModelExamples {
       . setFeaturesCol("features")
 
     val model = classifier.fit(featuredTraining)
-
+  // load new data from any external files if need
     val newApplicants = Seq(
       (690,45000),
       (610,35000),
       (740,43000),
-      (600,55000),
-      (540,48000),
+      (900,55000),
+      (860,48000),
     ).toDF("creditScore","income")
 
     val newFeatures = assmeber.transform(newApplicants)
@@ -50,7 +50,7 @@ object DecisionTreeModelExamples {
     // apply custom business rule to approved or rejected
 
     val findalDecision = predication.withColumn("finalDecision",
-      when($"income" < 45000, lit(0)).otherwise($"prediction")
+      when($"income" < 45000,lit(0)).otherwise($"prediction")
     )
 
     val findalDecisionString = findalDecision.withColumn("finalDecisionStatus",
