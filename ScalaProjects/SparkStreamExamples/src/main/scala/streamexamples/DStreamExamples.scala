@@ -9,15 +9,11 @@ object DStreamExamples {
 
     //import spark.implicits._
     println("spark streaming examples ready ")
-
    val lines = ssc.socketTextStream("localhost",9999)
     lines.print()
     val words = lines.flatMap(_.split(" "))
-
-
     val wordsCount = words.map((_,1)).reduceByKey(_+_)
     wordsCount.print(); // display information in tuple format with key as word and count of that words
-
     ssc.start()
     ssc.awaitTermination()
   }

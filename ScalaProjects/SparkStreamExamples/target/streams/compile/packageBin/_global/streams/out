@@ -4,6 +4,10 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/SparkStreamExamples/target/scala-2.13/classes/streamexamples[0m
 [0m[[0m[0mdebug[0m] [0m[0m	streamexamples/DStreamExamples.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/SparkStreamExamples/target/scala-2.13/classes/streamexamples/DStreamExamples.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	streamexamples/StructuredStreamWordCountExamples$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/SparkStreamExamples/target/scala-2.13/classes/streamexamples/StructuredStreamWordCountExamples$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	streamexamples/StructuredStreamWordCountExamples.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/SparkStreamExamples/target/scala-2.13/classes/streamexamples/StructuredStreamWordCountExamples.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	streamexamples/DStreamExamples$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/SparkStreamExamples/target/scala-2.13/classes/streamexamples/DStreamExamples$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
