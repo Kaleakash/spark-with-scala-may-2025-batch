@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/ScalaMLExamples/target/scala-2.13/scalamlexamples_2.13-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	mlexamples[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/ScalaMLExamples/target/scala-2.13/classes/mlexamples[0m
+[0m[[0m[0mdebug[0m] [0m[0m	mlexamples/SimpleMLExamples$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/ScalaMLExamples/target/scala-2.13/classes/mlexamples/SimpleMLExamples$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	mlexamples/SimpleMLExamples$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/ScalaMLExamples/target/scala-2.13/classes/mlexamples/SimpleMLExamples$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	mlexamples/KMeanExamles$$typecreator10$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/ScalaMLExamples/target/scala-2.13/classes/mlexamples/KMeanExamles$$typecreator10$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	mlexamples/SimpleMLExamples.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/ScalaMLExamples/target/scala-2.13/classes/mlexamples/SimpleMLExamples.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	mlexamples/KMeanExamles$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/ScalaMLExamples/target/scala-2.13/classes/mlexamples/KMeanExamles$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	mlexamples/KMeanExamles.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/ScalaMLExamples/target/scala-2.13/classes/mlexamples/KMeanExamles.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
