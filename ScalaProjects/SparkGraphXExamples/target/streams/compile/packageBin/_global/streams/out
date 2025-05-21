@@ -1,0 +1,9 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/SparkGraphXExamples/target/scala-2.13/sparkgraphxexamples_2.13-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	graphxexamples[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/SparkGraphXExamples/target/scala-2.13/classes/graphxexamples[0m
+[0m[[0m[0mdebug[0m] [0m[0m	graphxexamples/SimpleGraphsExample$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/SparkGraphXExamples/target/scala-2.13/classes/graphxexamples/SimpleGraphsExample$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	graphxexamples/SimpleGraphsExample.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/SparkGraphXExamples/target/scala-2.13/classes/graphxexamples/SimpleGraphsExample.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

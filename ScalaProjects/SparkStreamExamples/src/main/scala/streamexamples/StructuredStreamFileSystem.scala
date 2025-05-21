@@ -18,12 +18,13 @@ object StructuredStreamFileSystem {
     val salesStream  = spark.readStream.
       option("header","true").
       schema(saleSchema).
-      csv("data")
+      //csv("data")
+    csv("file:///home/labuser/Desktop/spark-with-scala-may-2025-batch/ScalaProjects/SparkStreamExamples/data/")
 
     val saleDS = salesStream.as[Product];
 
     // transformation
-    val totalSales = saleDS.groupBy($"product").agg(sum($"amount").as("total_amount"));
+    val totalSales = saleDS.groupBy($"product").agg(count($"amount").as("total_sales"));
 
     val query = totalSales.writeStream.outputMode("complete").format("console").
       trigger(Trigger.ProcessingTime("20 seconds")).start()
