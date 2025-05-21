@@ -1,10 +1,10 @@
 package streamexamples
 
 
-import org.apache.spark.sql.{Encoders, SparkSession,Seconds}
+import org.apache.spark.sql.{Encoders, SparkSession}
 import org.apache.spark.sql.functions._
-import org.apache.spark.streaming.Seconds
-import org.threeten.extra.Seconds
+import org.apache.spark.sql.streaming.Trigger
+
 case class Product(product:String, amount:Long)
 
 object StructuredStreamFileSystem {
@@ -25,8 +25,8 @@ object StructuredStreamFileSystem {
     // transformation
     val totalSales = saleDS.groupBy($"product").agg(sum($"amount").as("total_amount"));
 
-    val query = totalSales.writeStream.outputMode("complete").format("console").trigger(Seconds("5 seconds")).
-      start()
+    val query = totalSales.writeStream.outputMode("complete").format("console").
+      trigger(Trigger.ProcessingTime("20 seconds")).start()
 
     query.awaitTermination();
 
