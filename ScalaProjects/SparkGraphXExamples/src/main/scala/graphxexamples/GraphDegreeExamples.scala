@@ -11,17 +11,15 @@ object GraphDegreeExamples {
 
     // creating the vertices
     val vertices: RDD[(VertexId, String)] = sc.parallelize(Seq(
-      (1L, "John"),
-      (2L, "Steven"),
-      (3L, "Lex"),
-      (4L, "Neena"),
+      (100L, "John"),
+      (200L, "Steven"),
+      (300L, "Lex"),
+      (400L, "Neena"),
     ))
     // creating the edges
     val edges: RDD[Edge[String]] = sc.parallelize(Seq(
-      Edge(1L, 2L, "follow"),
-      Edge(2L, 3L, "follow"),
-      Edge(3L, 4L, "friend"),
-      Edge(4L, 1L, "likes")
+      Edge(100L, 200L, "follow"),
+      Edge(300L, 400L, "follow")
     ));
 
     // now we need to create graph with help of edges and vertices
