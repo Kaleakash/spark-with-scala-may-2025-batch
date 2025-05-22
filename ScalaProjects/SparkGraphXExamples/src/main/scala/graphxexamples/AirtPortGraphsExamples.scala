@@ -39,6 +39,35 @@ object AirtPortGraphsExamples {
         println(s"${e.srcId}  ---> ${e.dstId}")
     }
 
+    println("All Routes with Airport Details:")
+    airportGraph.triplets.collect().foreach { triplet =>
+      val srcAirport = triplet.srcAttr
+      val dstAirport = triplet.dstAttr
+      println(s"${triplet.srcId} (${srcAirport.name}, ${srcAirport.city}) --> ${triplet.dstId} (${dstAirport.name}, ${dstAirport.city})")
+    }
+
+    println("InDegree (Incoming Routes Count per Airport):")
+    airportGraph.inDegrees.collect().foreach {
+      case (id, count) =>
+        println(s"$id has $count incoming routes")
+    }
+
+    println("OutDegree (Outgoing Routes Count per Airport):")
+    airportGraph.outDegrees.collect().foreach {
+      case (id, count) =>
+        println(s"$id has $count outgoing routes")
+    }
+    val maxIncoming = airportGraph.inDegrees.max()(Ordering.by(_._2))
+    val maxOutgoing = airportGraph.outDegrees.max()(Ordering.by(_._2))
+
+    println(s"Airport with most incoming routes: ${maxIncoming._1}, count: ${maxIncoming._2}")
+    println(s"Airport with most outgoing routes: ${maxOutgoing._1}, count: ${maxOutgoing._2}")
+
+
+    val airportMap = aiportVertices.collectAsMap()
+    println(s"Most Incoming Airport: ${airportMap(maxIncoming._1)}")
+    println(s"Most Outgoing Airport: ${airportMap(maxOutgoing._1)}")
+
     sc.stop();
   }
 }
